@@ -4,9 +4,9 @@ import "./PageNotFound.scss"
 
 const PageNotFound = () => {
     return (
-       <div className="container" > 
+       <div className="container" style={{display: "flex", justifyContent:"center"}} > 
             <div>
-                <img src={pnf} alt="not found" />
+                <img src={pnf} alt="not found" style={{height:"100%", width:"100%"}}/>
             </div>
         </div>
     );
