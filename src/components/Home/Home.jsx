@@ -6,9 +6,11 @@ import { useDispatch } from 'react-redux';
 const Home = () => {
 
     const dispatch = useDispatch();
+    const movieText = "Top";
+    const showText = "Game";
     useEffect(() => {
-        dispatch(fetchAsyncMovies());
-        dispatch(fetchAsyncShows());
+        dispatch(fetchAsyncMovies(movieText));
+        dispatch(fetchAsyncShows(showText));
     }, [dispatch]);
 
 
