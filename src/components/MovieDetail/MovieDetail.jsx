@@ -67,7 +67,7 @@ const MovieDetail = () => {
                     <div className='section-right'>
                         <img src={data.Poster} alt={data.Title} />
                     </div> 
-                </>)};
+                </>)}
         </div>
     );
 };
